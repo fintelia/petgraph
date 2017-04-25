@@ -17,6 +17,8 @@ extern crate fixedbitset;
 #[cfg(feature = "graphmap")]
 extern crate ordermap;
 
+#[macro_use] extern crate serde_derive;
+
 #[doc(no_inline)]
 pub use graph::Graph;
 

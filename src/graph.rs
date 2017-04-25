@@ -84,7 +84,7 @@ unsafe impl IndexType for u8 {
 }
 
 /// Node identifier.
-#[derive(Copy, Clone, Default, PartialEq, PartialOrd, Eq, Ord, Hash)]
+#[derive(Copy, Clone, Default, PartialEq, PartialOrd, Eq, Ord, Hash, Serialize, Deserialize)]
 pub struct NodeIndex<Ix=DefaultIx>(Ix);
 
 impl<Ix: IndexType> NodeIndex<Ix>
