@@ -27,8 +27,8 @@ debug = true
 
 [dependencies]
 fixedbitset = { version = "0.1.4" }
-serde = { version = "0.9" }
-serde_derive = { version = "0.9" }
+serde = { version = "1.0" }
+serde_derive = { version = "1.0" }
 quickcheck = { optional = true, version = "0.4", default-features = false }
 ordermap = { version = "0.2.2", optional = true }
 
